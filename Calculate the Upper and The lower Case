@@ -1,0 +1,10 @@
+lower = 0
+upper = 0
+str = "The quick Brow Fox" 
+for i in str:
+    if i.isupper():
+        lower += 1
+    else:
+        upper += 1
+print("No. of Upper Case characters : ", lower)
+print("No. of Upper Case characters : ", upper)
