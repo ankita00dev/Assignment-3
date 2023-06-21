@@ -1,0 +1,7 @@
+def addition():
+    sum = 0
+    lst = [8,2,3,0,7]
+    for i in lst:
+        sum += i
+    print("Output : ", sum)
+addition()
